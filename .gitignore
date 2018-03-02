@@ -1,0 +1,16 @@
+#Node
+
+node_modules/
+.env
+package-lock.json
+
+#HomeGrownMeals
+
+app/
+gulpfile.js
+test/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

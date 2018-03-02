@@ -1,0 +1,16 @@
+{
+  "name": "homegrownmeals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/launch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/launch.js"
+  },
+  "author": "Ethan Steen",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2"
+  }
+}
