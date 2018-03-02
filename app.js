@@ -1,4 +1,5 @@
 let launchFactory = require('./server/launch-factory');
+let _ = require('lodash');
 require('dotenv').config();
 
 module.exports.createApp = function () {

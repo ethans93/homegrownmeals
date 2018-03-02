@@ -1,6 +1,8 @@
 branch-defaults:
   default:
     environment: homegrrownmeals-env
+  master:
+    environment: homegrrownmeals-env
 environment-defaults:
   homegrrownmeals-env:
     branch: null
