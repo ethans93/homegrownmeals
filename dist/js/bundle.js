@@ -96,6 +96,9 @@ app.controller("RecipesCtrl", ["$rootScope", "$scope", "$location", "$window", R
 app.controller("CateringCtrl", ["$rootScope", "$scope", "$location", "$window", CateringCtrl]);
 app.controller("AboutCtrl", ["$rootScope", "$scope", "$location", "$window", AboutCtrl]);
 
+app.factory('server', ['$http', server]);
+app.factory('modalControllers', ['$uibModal', modalControllers]);
+
 /*
 app.service('SessionService', ['$injector', '$window', SessionService]);
 app.service('LocationService', LocationService);
